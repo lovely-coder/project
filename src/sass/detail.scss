@@ -1,0 +1,433 @@
+@import 'public';
+@import 'iconfont';
+/*menu*/
+#menu{
+    width: 100%;
+    display: none;
+    z-index: 9999;
+    position: fixed;
+    top: 70px;
+    left: 0px;
+    background: white;
+    .head-menu{
+        width: 1200px;
+        height: 440px;
+        margin: 0 auto;
+        .leftMenu{
+            width: 700px;
+            height: 440px;
+            float: left;
+            .one{
+                width: 180px;
+                height: 440px;
+                margin-left: 100px;
+                float: left;
+                li{
+                    font-size: 14px;
+                    line-height: 30px;
+                    padding: 15px 0px;
+                }
+            }
+            .two{
+                float: left;
+                width: 420px;
+                height: 440px;
+                a{
+                   display: inline-block;
+                   width: 30%;
+                   font-size: 14px; 
+                   line-height: 30px;
+                   padding: 15px 0px;
+                   color: #111;
+                }
+            }
+        }
+        .rightMenu{
+            width: 500px;
+            height: 440px;
+            float: left;
+            .img{
+                margin-left: 160px;
+                border-left: 2px solid #ddd
+                ;
+                margin-top: 40px;
+                padding-left:60px ;
+                width: 240px;
+                height: 300px;
+                p{
+                    width: 100px;
+                    height: 36px;
+                    border: 1px solid #0c5ca8;
+                    border-radius: 36px;
+                    line-height: 36px;
+                    text-align: center;
+                    margin: 0 auto;
+                    margin-top: 10px;
+                    a{
+                        color:#0c5ca8;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+/*detail*/
+#detail{
+    width: 100%;
+    height: 672px;
+    background: rgb(240, 241, 244);
+    .detail_ice{
+        width: 1200px;
+        margin: 0 auto;
+        .detail_tit{
+            width: 1200px;
+            height: 60px;
+            line-height: 60px;
+            font-size: 14px;
+            a{
+                color:#444;
+            }
+        }
+    }
+    body {
+        font-family: Helvetica;
+        font-size: 15px;
+        font-weight: normal;
+        padding-top: 60px;
+    }
+
+    .clearfix::before,
+    .clearfix::after {
+        content: "";
+        display: table;
+    }
+
+    .clearfix::after {
+        clear: both;
+    }
+
+
+    div.box {
+        width: 400px;
+        height: 400px;
+        margin-left: 200px;
+        float: left;
+    }
+
+    div.box a.phone-display {
+        display: block;
+        position: relative;
+        height: 100%;
+    }
+
+
+    div.bottom-nav{
+        margin-top: 20px;
+    }
+    
+    div.bottom-nav div.tab-btn{
+        position: relative;
+        width: 40px;
+        height: 60px;
+        cursor: pointer;
+    }
+    
+    div.tab-btn:hover{
+        opacity: .6;
+    }
+
+    div.tab-btn.btn-left{
+        float: left;
+    }
+
+    div.tab-btn.btn-right{
+        float: right;
+    }
+
+    i.shift-icon {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        width: 26px;
+        height: 26px;
+        border: 1px solid #999;
+        border-radius: 50%;
+    }
+
+    i.shift-icon>span {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width: 10px;
+        height: 10px;
+        border-bottom: 1.5px solid #999;
+    }
+
+    div.btn-left i.shift-icon>span {
+        border-left: 1.5px solid #999;
+        transform: translate(-30%, -50%) rotate(45deg);
+    }
+    div.btn-right i.shift-icon>span {
+        border-right: 1.5px solid #999;
+        transform: translate(-70%, -50%) rotate(-45deg);
+    }
+
+
+    div.bottom-nav div.bottom-center-nav{
+        position: relative;
+        height: 60px;
+        margin: 0 50px;
+        overflow: hidden;
+    }
+    div.bottom-center-nav ul.small-img-ul {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+    }
+    ul.small-img-ul li.img{
+        float: left;
+        width: 60px;
+        height: 100%;
+        border:1px solid transparent;
+        background-size: 100% 100%;
+        cursor: pointer;
+    }
+    ul.small-img-ul li.img.active{
+        border-color: rgb(160, 27, 27);
+    }
+
+    .detail_right{
+        width: 720px;
+        height: 430px;
+        float:left;
+        // background-color: red;
+        .detail_tit{
+            width: 610px;
+            margin-left: 20px;
+            margin: 18px 0px;
+            h1{
+                font-size: 16px;
+                line-height: 26px;
+                color: #5e5e5e;
+                font-weight: 600;
+            }
+            
+        }
+        .ice_price{
+            width: 720px;
+            height: 72px;
+            background-color:#f6f6f6;
+            .lf_price{
+                float: left;
+                margin-left: 30px;
+                i{
+                    font-size: 12px;
+                    font-style: normal;
+                    color: #888;
+                    line-height: 72px;
+                }
+                span{
+                    font-family: Arial;
+                    font-size: 24px;
+                    color: #e3101e;
+                    font-weight: 700;
+                    margin-right: 10px;
+                }
+                b{
+                    font-weight: 300;
+                    font-size: 12px;
+                    color: #0c5ca8;
+                }
+            }
+            .rt_price{
+                
+                b{
+                    display: inline-block;
+                    font-size: 32px;
+                    line-height: 32px;
+                    color: #ccc;
+                    margin-right: 3px;
+                    font-family: '宋体';
+                    position: absolute;
+                    top: 20px;
+                    right: 80px;
+                }
+                .hp{
+                    position: absolute;
+                    right: 10px;
+                    top: 18px;
+                    font-size: 12px;
+                    line-height: 20px;
+                    width: 68px; 
+                    span{
+                        color: #0c5ca8;
+                    }
+                }
+               
+            }
+        }
+        .unusual{
+            width: 720px;
+            height: 20px;
+            margin-left: 30px;
+            margin-top: 15px;
+            h6{
+                font-size: 12px;
+                line-height: 20px;
+                color:#888;
+                font-weight: 300; 
+                float: left;
+            }
+            .service{
+                .yijiuhuanxin{
+                    margin-left: 15px;
+                    padding: 3px 10px 3px 17px;
+                    border: 1px solid #61819f;
+                    border-top-left-radius: 16px;
+                    border-bottom-left-radius: 16px;
+                    margin-right: 16px;
+                    font-size: 12px;
+                    a{
+                        color:#61819f ;
+                    }
+                }
+                .guanjia{
+                    margin-left: 15px;
+                    padding: 3px 10px 3px 17px;
+                    border: 1px solid #61819f;
+                    border-top-left-radius: 16px;
+                    border-bottom-left-radius: 16px;
+                    margin-right: 16px;
+                    font-size: 12px;
+                    a{
+                        color:#61819f ;
+                    }
+                }
+                .guomei{
+                    margin-left: 15px;
+                    padding: 3px 10px 3px 17px;
+                    border: 1px solid #61819f;
+                    border-top-left-radius: 16px;
+                    border-bottom-left-radius: 16px;
+                    margin-right: 16px;
+                    font-size: 12px;
+                    a{
+                        color:#61819f ;
+                    }
+                }
+            }
+        }
+        .song{
+            width: 720px;
+            height: 18px;
+            margin-left: 30px;
+            margin-top: 15px;
+            h6{
+                font-size: 12px;
+                line-height: 20px;
+                color:#888;
+                font-weight: 300; 
+                float: left;
+            }
+        }
+        .yanbao{
+            width: 720px;
+            height: 42px;
+            margin-left: 30px;
+            margin-top: 15px;
+            h6{
+                font-size: 12px;
+                line-height: 20px;
+                color:#888;
+                font-weight: 300; 
+                float: left;
+            }
+        }
+        .fenqi{
+            width: 720px;
+            height: 38px;
+            margin-left: 30px;
+            margin-top: 15px;
+            h6{
+                font-size: 12px;
+                line-height: 20px;
+                color:#888;
+                font-weight: 300; 
+                float: left;
+            }
+        }
+        .detail_btn{
+            width: 720px;
+            height: 420px;
+            margin-left: 30px;
+            float: left;
+            margin-top: 15px;
+            .btnCount{
+                width: 48px;
+                height: 40px;
+                border: 1px solid #ccc;
+                position: relative;
+                float: left;
+                .btnNum{
+                    width: 32px;
+                    height: 38px;
+                    outline: none;
+                    border:0;
+                    border-right: 1px solid #ccc;
+                    text-align: center;
+                }
+                a{
+                    display: block;
+                    float: left;
+                    width: 13px;
+                    height: 18px;
+                    line-height: 18px;
+                    text-align: center;
+                    border-bottom: 1px solid #ccc;
+                    font-size: 12px;
+                    color: #5e5e5e;
+                    background: #f8f8f8;
+                }
+                .plus{
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                }
+                .minus{
+                    position:absolute;
+                    bottom: 0;
+                    right: 0;
+                }
+            }
+            .btn_card{
+                width:200px ;
+                height: 40px;
+                float: left;
+                margin-left: 15px;
+                
+                button{
+                    width: 150px;
+                    height: 40px;
+                    background-color: #e3101e;
+                    border: 0;
+                    font-size: 18px;
+                    color: white;
+                    outline:none;
+                    border:0;
+                    
+                }
+            }
+        }
+        
+    } 
+}
+
+// detail_infor
+#detail_infor{
+    
+}

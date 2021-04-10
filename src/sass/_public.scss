@@ -1,0 +1,178 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,hr,ul,ol,td,input,option,textarea{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: "微软雅黑";
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: none;
+}
+/*header*/
+#header{
+    width: 100%;
+    .header1{
+        width: 1200px;
+        height: 70px;
+        margin: 0 auto;
+        .leftHead{
+            width: 900px;
+            height: 70px;
+            float: left;
+            .logo{
+                width: 85px;
+                float: left;
+                padding-top: 8px;
+                padding-right: 60px;
+                float: left;
+            }
+            .nav{
+                float: left;
+                li{
+                    float: left;
+                }
+                a{
+                    float: left;
+                    font-size: 15px;
+                    color: #000;
+                    font-weight: bolder;
+                    padding: 0px 30px;
+                    line-height: 70px;
+                }
+            }
+        }
+        .rightHead{
+            width: 300px;
+            height: 70px;
+            float: left;
+            form{
+                padding-top: 18px;
+                width: 212px;
+                height: 38px;
+                outline: none;
+                float: left;
+                position: relative;
+                .inp{
+                    width: 168px;
+                    height: 36px;
+                    float: left;
+                    border: none;
+                    outline: none;
+                    font-size: 12px;
+                }
+                .sub{
+                    width: 24px;
+                    height: 36px;
+                    float: left;
+                    box-sizing: content-box;
+                    border:none;
+                    outline: none;
+                    background: transparent;
+                }
+                .icon-sousuo1{
+                    font-size: 26px;
+                    position: absolute;
+                    right: 22px;
+                    top: 22px;
+                    cursor: pointer;
+                }
+            }
+            .card{
+                float: left;
+                line-height: 70px;
+                .icon-gouwuche{
+                    font-size: 30px;
+                    margin-right: 10px;
+                    cursor: pointer;
+                }
+                .icon-zhanghao{
+                    font-size: 26px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+/*footer*/
+#footer{
+    width: 100%;
+    background: #f1f2f6;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    .footer{
+        width: 1200px;
+        margin: 0 auto;
+        .foot{
+            width: 200px;
+            float:left;
+            h3{
+                font-size: 14px;
+                padding: 15px 0;
+                font-weight: 700;
+            }
+            a{
+                font-size: 12px;
+                color: #444;
+                display: inline-block;
+                width: auto;
+                padding: 5px 0;
+            }
+        }
+    }
+}
+
+
+#footer-bottom{
+    width: 100%;
+    background: #f1f2f6;
+    .bt{
+        border-top: 1px solid #c8c8c8;
+        width: 1200px;
+        height: 58px;
+        margin: 0 auto;
+        font-size: 12px;
+        line-height: 58px;
+        .bt-left{
+            width: 372px;
+            float: left;
+            a:hover{
+                color: #005aaa;
+            }
+        }
+        .bt-center{
+            width: 456px;
+            float: left;
+        }
+        .bt-right{
+            width: 372px;
+            float: left;
+            position: relative;
+            span{
+                color:blue;
+                margin-left: 3px;
+            }
+            .icon-weixin1{
+                color: grey;
+                font-size: 20px;
+            }
+            img{
+                position: absolute;
+                right: 0;
+                bottom:58px;
+                display: none;
+            }
+        }
+        a{
+            padding:0px 15px;
+            color: #444;
+        }
+    }
+}

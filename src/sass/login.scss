@@ -1,0 +1,272 @@
+@import 'public';
+@import 'iconfont';
+#lg-header{
+    width: 1200px;
+    height: 70px;
+    margin: 0 auto;
+    .lg-lf{
+        width: 600px;
+        float: left;
+        .logo{
+            width: 85px;
+            float: left;
+            padding-top: 8px;
+            float: left;
+        }
+        h3{
+            float: left;
+            line-height: 70px;
+            font-size:20px;
+            color: #111;
+            margin-left:30px;
+            font-weight: 400;
+        }
+    }
+    .lg-rt{
+        width: 600px;
+        float: right;
+        a{
+            float: right;
+            line-height: 70px;
+            color: #005aaa;
+        }
+    }
+}
+/*banner*/
+#banner{
+    position: relative;
+    width: 100%;
+    height:690px;
+    background-image: url(../../src/img/login_bg.png);
+    .banner_tit{
+        width: 684px;
+        height: 321px;
+        padding-left:160px;
+        padding-top: 200px;
+        float: left;
+        .line{
+            display: block;
+            width: 60px;
+            height: 8px;
+            background:#fff ;
+        }
+        p{
+            margin-top: 58px;
+            line-height: 60px;
+            font-size: 47px;
+            color: #fff;
+            font-weight: 700;
+        }
+    }
+    .banner_form{
+        background: white;
+        width: 420px;
+        height: 480px;
+        float: left;
+        margin-left:40px;
+        margin-top: 100px;
+        .form_head{
+            width: 420px;
+            height: 56px;
+            line-height: 56px;
+            text-align: center;
+            font-family: MicrosoftYaHei-Bold;
+            font-size:24px;
+            color: #111;
+            font-weight: 700;
+            position: relative;
+            img{
+                position: absolute;
+                top: 0;
+                right: 0;
+            }
+        }
+        .form_main{
+            width: 420px;
+            height: 410px;
+            .form-lg{
+                width: 360px;
+                height: 48px;
+                margin: 0 auto;
+                .form_lg_lf{
+                    width: 180px;
+                    line-height: 48px;
+                    border-bottom: 2px solid #005aaa;
+                    text-align: center;
+                    float: left;
+                }
+                .form_lg_rt{
+                    width: 180px;
+                    line-height: 48px;
+                    text-align: center;
+                    float: left;
+                }
+                .icon-sj{
+                    font-size: 20px;
+                }
+            }
+            i{
+                font-style: normal;
+                color:#005aaa;
+            }
+            form{
+                width: 360px;
+                margin: 0 auto;
+                .txt,.pwd{
+                    border: none;
+                    border-bottom:1px solid #aaa;
+                    width:360px;
+                    height:40px;
+                    line-height: 40px;
+                    margin-top: 12px;
+                    font-size: 14px;
+                    color: #aaa;
+                    outline: none;
+                    position: relative;
+                }
+                p{
+                    font-size: 14px;
+                    color: red;
+                }
+                .ck{
+                    input{
+                        width: 20px;
+                        height: 20px;
+                        float: left;
+                        margin-top: 16px;
+                        }
+                    b{
+                        font-weight: 400;
+                        font-size: 14px;
+                        color: #7d7d7d;
+                        margin-left: 8px;
+                        margin-top: 16px;
+                        float: left;
+                    }
+                    i{
+                        font-size: 12px;
+                        color: #7d7d7d;
+                        margin-top: 18px;
+                        float: left;
+                    }
+                    a{
+                        font-size: 12px;
+                        color: #7d7d7d;
+                        margin-top: 18px;
+                        float: left;
+                    }
+                }
+                .bx{
+                    position: relative;
+                    input{
+                        width: 20px;
+                        height: 20px;
+                        margin-top: 16px;
+                        position: absolute;
+                        left: 0;
+                    }
+                    b{
+                        display: inline-block;
+                        font-weight: 400;
+                        font-size: 14px;
+                        color: #7d7d7d;
+                        margin-top: 16px;
+                    }
+                }    
+                .login{
+                    #sub{
+                        width: 360px;
+                        height: 48px;
+                        background:#005aaa;
+                        text-align: center;
+                        line-height: 48px;
+                        margin-top: 18px;
+                        border-radius: 36px;
+                        cursor: pointer;
+                        color: white;
+                        outline: none;
+                        border: 1px solid transparent;
+                    }
+                }
+                
+            }
+            .icon{
+                width: 360px;
+                height: 60px;
+                margin: 0 auto;
+                text-align: center;
+                line-height: 60px;
+                margin-top: 20px;
+                .iconfont{
+                    width: 40px;
+                    height: 45px;
+                    font-size: 30px;
+                    margin-right: 40px;
+                }
+                .icon-weixin1{
+                    margin-left: 25px;
+                    color: #94cb77;
+                    opacity: 0.5;
+                }
+                .icon-weixin1:hover{
+                    opacity: 1;
+                }
+                .icon-wb{
+                    color: #eba355;
+                    opacity: 0.5;
+                }
+                .icon-wb:hover{
+                    opacity: 1;
+                }
+                .icon-wy{
+                    color: #f6859f;
+                    opacity: 0.5;
+                }
+                .icon-wy:hover{
+                    opacity: 1;
+                }
+                .icon-rrw{
+                    color:#6cabe0;
+                    opacity: 0.5;
+                }
+                .icon-rrw:hover{
+                    opacity: 1;
+                }
+            }
+        }
+        
+    }
+    .lg-footer{
+        width: 100%;
+        height: 65px;
+        background: black;
+        opacity: .5;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        .lg{
+            width: 1200px;
+            margin: 0 auto;
+        }
+        .lg-lf{
+            width: 266px;
+            line-height: 65px;
+            float: left;
+            a:hover{
+                color: #005aaa;
+            }
+        }
+        .lg-rt{
+            width: 400px;
+            line-height: 65px;
+            float: right;
+            a:hover{
+                color: #005aaa;
+            }
+        }
+        a{
+            font-size:12px;
+            color:white;
+        }
+    }
+}

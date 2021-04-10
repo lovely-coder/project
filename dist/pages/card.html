@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../dist/css/card.min.css">
+</head>
+<body>
+    <!-- header -->
+    <div id="header">
+        <div class="header1">
+            <div class="leftHead">
+                <div class="h-logo">
+                    <a href=""><img src="../img/logo.png" alt="" class="logo"></a>
+                </div>
+                <ul class="nav">
+                    <li><a href="">智能家居</a></li>
+                    <li><a href="">个人与家用产品</a></li>
+                    <li><a href="">商用解决方案</a></li>
+                    <li><a href="">产品购物</a></li>
+                    <li><a href="">服务支持</a></li>
+                </ul>
+            </div>
+            <div class="rightHead">
+                <form action="">
+                    <input type="text" placeholder="智能WIFI冰箱" class="inp">
+                    <input type="submit" value="" class="sub">
+                    <span class="iconfont icon-sousuo1"></span>
+                </form>
+                <div class="card">
+                    <span class="iconfont icon-gouwuche"></span>
+                    <span class="iconfont icon-zhanghao"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- menu -->
+    <div id="menu">
+        <div class="head-menu">
+            <div class="leftMenu">
+                <ul class="one">
+                    <!-- <li>智能家居</li>
+                    <li>冰箱</li>
+                    <li>电器</li>
+                    <li>智能家居</li> -->
+                </ul>
+                <div class="two">
+                    <!-- <a href="">全能美食</a>
+                    <a href="">全能美食</a>
+                    <a href="">全能美食</a>
+                    <a href="">全能美食</a>
+                    <a href="">全能美食</a> -->
+                </div>
+            </div>
+            <div class="rightMenu">
+                <div class="img">
+                    <img src="../img/6.png" alt="">
+                    <p><a href="">了解更多</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="cartMain">
+        <div class="cartMain_hd">
+            <ul class="order_lists cartTop">
+                <li class="list_chk">
+                    <!--所有商品全选-->
+                    <input type="checkbox" id="all" class="whole_check">
+                    <label for="all"></label>
+                    全选
+                </li>
+                <li class="list_con">商品信息</li>
+                <li class="list_info">商品参数</li>
+                <li class="list_price">单价</li>
+                <li class="list_amount">数量</li>
+                <li class="list_sum">金额</li>
+                <li class="list_op">操作</li>
+            </ul>
+        </div>
+
+        <div class="cartBox">
+            <div class="shop_info">
+                <div class="all_check">
+                    <!--店铺全选-->
+                    <input type="checkbox" id="shop_a" class="shopChoice">
+                    <label for="shop_a" class="shop"></label>
+                </div>
+                <div class="shop_name">
+                    店铺：<a href="javascript:;">海尔官方旗舰店</a>
+                </div>
+            </div>
+            <div class="order_content">
+                <ul class="order_lists">
+                    <li class="list_chk">
+                        <input type="checkbox" id="checkbox_2" class="son_check">
+                        <label for="checkbox_2"></label>
+                    </li>
+                    <li class="list_con">
+                        <div class="list_img"><a href="javascript:;"><img src="../img/ice11.jpg" alt=""></a></div>
+                        <div class="list_text"><a href="javascript:;">                                   海尔(Haier)BCD-570WLHSS17B2U1 570立升 抽屉对开 冰箱 全空间保鲜 晶釉蓝      </a></div>
+                    </li>
+                    <li class="list_info">
+                        <p>规格：默认</p>
+                        <p>尺寸：70cm*160cm*50cm</p>
+                    </li>
+                    <li class="list_price">
+                        <p class="price">￥8299</p>
+                    </li>
+                    <li class="list_amount">
+                        <div class="amount_box">
+                            <a href="javascript:;" class="reduce reSty">-</a>
+                            <input type="text" value="1" class="sum">
+                            <a href="javascript:;" class="plus">+</a>
+                        </div>
+                    </li>
+                    <li class="list_sum">
+                        <p class="sum_price">￥8299</p>
+                    </li>
+                    <li class="list_op">
+                        <p class="del"><a href="javascript:;" class="delBtn">移除商品</a></p>
+                    </li>
+                </ul>
+        <!--底部-->
+        <div class="bar-wrapper">
+            <div class="bar-right">
+                <div class="piece">已选商品<strong class="piece_num">0</strong>件</div>
+                <div class="totalMoney">共计: <strong class="total_text">0.00</strong></div>
+                <div class="calBtn"><a href="javascript:;">结算</a></div>
+            </div>
+        </div>
+    </div></div></section>
+    <section class="model_bg"></section>
+    <section class="my_model">
+        <p class="title">删除宝贝<span class="closeModel">X</span></p>
+        <p>您确认要删除该宝贝吗？</p>
+        <div class="opBtn"><a href="javascript:;" class="dialog-sure">确定</a><a href="javascript:;" class="dialog-close">关闭</a></div>
+    </section>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.12.4/jquery.js"></script>
+    <script src="../../dist/js/card.min.js"></script>
+    <script src="../../dist/js/carts.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,176 @@
+{
+    "menu1" : 
+    {"sp1" : ["智家方案","智慧家居","生活资讯","智慧体验店"]
+    },
+    "sp2" : {
+        "one" : ["全家美食","全屋洗护","全屋用水","全屋空气","全屋智能"],"two" : ["冰箱","冰柜","酒柜","洗衣机","空调","电视","热水器","厨房电器","小家电"],
+        "three" : ["水","食材","生活","洗护","空气","教育","健康"],"four": ["智慧体验店","智家数字体验馆"]},
+    "list" : {
+        "list1" : ["冰箱","冷柜","酒柜","洗衣机","空调","电视","热水器","厨房电器","小家电"]
+    },
+    
+        "pic" :
+        [
+            {
+            "src" : "../img/ice1.jpg",
+            "tit" : "570升风冷变频多门冰箱",
+            "code" : "BCD-570WLHSS17B2U1",
+            "price" : "￥8999",
+            "num" : "1",
+            "icon" : "9",
+            "label" : "大容量",
+            "label2" : "全空间保鲜"
+            },
+            {
+                "src" : "../img/ice2.jpg",
+                "tit" : "473升风冷变频对开门冰箱",
+                "code" : "BCD-473WGHSS9DG9U1",
+                "price" : "￥3699",
+                "num" : "1",
+                "icon" : "4",
+                "label" : "多路送风",
+                "label2" : "大容量"
+            },
+            {
+                "src" : "../img/ice3.jpg",
+                "tit" : "496升风冷变频十字对开门冰箱",
+                "code" : "BCD-496WSEBU1",
+                "price" : "￥7599",
+                "num" : "1",
+                "icon" : "209",
+                "label" : "嵌入式家电",
+                "label2" : "大冷藏空间"
+            },
+            {
+                "src" : "../img/ice4.jpg",
+                "tit" : "331升风冷变频多门冰箱",
+                "code" : "BCD-331WLHFD78D9U1",
+                "price" : "￥3999",
+                "num" : "1",
+                "icon" : "332",
+                "label" : "净味保鲜",
+                "label2" : "风冷无霜"
+            },
+            {
+                "src" : "../img/ice5.jpg",
+                "tit" : "481升风冷变频十字对开门冰箱",
+                "code" : "BCD-481WGHTDD9D9U1",
+                "price" : "￥4999",
+                "num" : "1",
+                "icon" : "459",
+                "label" : "大冷藏空间",
+                "label2" : "大容量"
+            },
+            {
+                "src" : "../img/ice6.jpg",
+                "tit" : "506升风冷变频多门冰箱",
+                "code" : "BCD-506WSEBU1",
+                "price" : "￥8299",
+                "num" : "1",
+                "icon" : "125",
+                "label" : "嵌入式家电",
+                "label2" : "大冷藏空间"
+            },
+            {
+                "src" : "../img/ice7.jpg",
+                "tit" : "601升风冷变频对开门冰箱",
+                "code" : "BCD-601WLHSS17B2U1",
+                "price" : "￥8999",
+                "num" : "1",
+                "icon" : "120",
+                "label" : "嵌入式家电",
+                "label2" : "大冷藏空间"
+            },
+            {
+                "src" : "../img/ice8.jpg",
+                "tit" : "651升风冷变频对开门冰箱",
+                "code" : "BCD-651WLHSS6ED9",
+                "price" : "￥6999",
+                "num" : "1",
+                "icon" : "133",
+                "label" : "大冷藏空间",
+                "label2" : "大容量"
+            },
+            {
+                "src" : "../img/ice1.jpg",
+                "tit" : "570升风冷变频多门冰箱",
+                "code" : "BCD-570WLHSS17B2U1",
+                "price" : "￥8999",
+                "num" : "1",
+                "icon" : "9",
+                "label" : "大容量",
+                "label2" : "全空间保鲜"
+                },
+                {
+                    "src" : "../img/ice2.jpg",
+                    "tit" : "473升风冷变频对开门冰箱",
+                    "code" : "BCD-473WGHSS9DG9U1",
+                    "price" : "￥3699",
+                    "num" : "1",
+                    "icon" : "4",
+                    "label" : "多路送风",
+                    "label2" : "大容量"
+                },
+                {
+                    "src" : "../img/ice3.jpg",
+                    "tit" : "496升风冷变频十字对开门冰箱",
+                    "code" : "BCD-496WSEBU1",
+                    "price" : "￥7599",
+                    "num" : "1",
+                    "icon" : "209",
+                    "label" : "嵌入式家电",
+                    "label2" : "大冷藏空间"
+                },
+                {
+                    "src" : "../img/ice4.jpg",
+                    "tit" : "331升风冷变频多门冰箱",
+                    "code" : "BCD-331WLHFD78D9U1",
+                    "price" : "￥3999",
+                    "num" : "1",
+                    "icon" : "332",
+                    "label" : "净味保鲜",
+                    "label2" : "风冷无霜"
+                },
+                {
+                    "src" : "../img/ice5.jpg",
+                    "tit" : "481升风冷变频十字对开门冰箱",
+                    "code" : "BCD-481WGHTDD9D9U1",
+                    "price" : "￥4999",
+                    "num" : "1",
+                    "icon" : "459",
+                    "label" : "大冷藏空间",
+                    "label2" : "大容量"
+                },
+                {
+                    "src" : "../img/ice6.jpg",
+                    "tit" : "506升风冷变频多门冰箱",
+                    "code" : "BCD-506WSEBU1",
+                    "price" : "￥8299",
+                    "num" : "1",
+                    "icon" : "125",
+                    "label" : "嵌入式家电",
+                    "label2" : "大冷藏空间"
+                },
+                {
+                    "src" : "../img/ice7.jpg",
+                    "tit" : "601升风冷变频对开门冰箱",
+                    "code" : "BCD-601WLHSS17B2U1",
+                    "price" : "￥8999",
+                    "num" : "1",
+                    "icon" : "120",
+                    "label" : "嵌入式家电",
+                    "label2" : "大冷藏空间"
+                },
+                {
+                    "src" : "../img/ice8.jpg",
+                    "tit" : "651升风冷变频对开门冰箱",
+                    "code" : "BCD-651WLHSS6ED9",
+                    "price" : "￥6999",
+                    "num" : "1",
+                    "icon" : "133",
+                    "label" : "大冷藏空间",
+                    "label2" : "大容量"
+                }
+        ]
+}
+    

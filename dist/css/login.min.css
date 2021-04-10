@@ -1,0 +1,613 @@
+@charset "UTF-8";
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, dd, hr, ul, ol, td, input, option, textarea {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "微软雅黑";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border: none;
+}
+
+/*header*/
+#header {
+  width: 100%;
+}
+
+#header .header1 {
+  width: 1200px;
+  height: 70px;
+  margin: 0 auto;
+}
+
+#header .header1 .leftHead {
+  width: 900px;
+  height: 70px;
+  float: left;
+}
+
+#header .header1 .leftHead .logo {
+  width: 85px;
+  float: left;
+  padding-top: 8px;
+  padding-right: 60px;
+  float: left;
+}
+
+#header .header1 .leftHead .nav {
+  float: left;
+}
+
+#header .header1 .leftHead .nav li {
+  float: left;
+}
+
+#header .header1 .leftHead .nav a {
+  float: left;
+  font-size: 15px;
+  color: #000;
+  font-weight: bolder;
+  padding: 0px 30px;
+  line-height: 70px;
+}
+
+#header .header1 .rightHead {
+  width: 300px;
+  height: 70px;
+  float: left;
+}
+
+#header .header1 .rightHead form {
+  padding-top: 18px;
+  width: 212px;
+  height: 38px;
+  outline: none;
+  float: left;
+  position: relative;
+}
+
+#header .header1 .rightHead form .inp {
+  width: 168px;
+  height: 36px;
+  float: left;
+  border: none;
+  outline: none;
+  font-size: 12px;
+}
+
+#header .header1 .rightHead form .sub {
+  width: 24px;
+  height: 36px;
+  float: left;
+  box-sizing: content-box;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+#header .header1 .rightHead form .icon-sousuo1 {
+  font-size: 26px;
+  position: absolute;
+  right: 22px;
+  top: 22px;
+  cursor: pointer;
+}
+
+#header .header1 .rightHead .card {
+  float: left;
+  line-height: 70px;
+}
+
+#header .header1 .rightHead .card .icon-gouwuche {
+  font-size: 30px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+#header .header1 .rightHead .card .icon-zhanghao {
+  font-size: 26px;
+  cursor: pointer;
+}
+
+/*footer*/
+#footer {
+  width: 100%;
+  background: #f1f2f6;
+  overflow: hidden;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+#footer .footer {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+#footer .footer .foot {
+  width: 200px;
+  float: left;
+}
+
+#footer .footer .foot h3 {
+  font-size: 14px;
+  padding: 15px 0;
+  font-weight: 700;
+}
+
+#footer .footer .foot a {
+  font-size: 12px;
+  color: #444;
+  display: inline-block;
+  width: auto;
+  padding: 5px 0;
+}
+
+#footer-bottom {
+  width: 100%;
+  background: #f1f2f6;
+}
+
+#footer-bottom .bt {
+  border-top: 1px solid #c8c8c8;
+  width: 1200px;
+  height: 58px;
+  margin: 0 auto;
+  font-size: 12px;
+  line-height: 58px;
+}
+
+#footer-bottom .bt .bt-left {
+  width: 372px;
+  float: left;
+}
+
+#footer-bottom .bt .bt-left a:hover {
+  color: #005aaa;
+}
+
+#footer-bottom .bt .bt-center {
+  width: 456px;
+  float: left;
+}
+
+#footer-bottom .bt .bt-right {
+  width: 372px;
+  float: left;
+  position: relative;
+}
+
+#footer-bottom .bt .bt-right span {
+  color: blue;
+  margin-left: 3px;
+}
+
+#footer-bottom .bt .bt-right .icon-weixin1 {
+  color: grey;
+  font-size: 20px;
+}
+
+#footer-bottom .bt .bt-right img {
+  position: absolute;
+  right: 0;
+  bottom: 58px;
+  display: none;
+}
+
+#footer-bottom .bt a {
+  padding: 0px 15px;
+  color: #444;
+}
+
+@font-face {
+  font-family: "iconfont";
+  src: url("../lib/font/iconfont.eot?t=1617778162623");
+  /* IE9 */
+  src: url("../lib/font/iconfont.eot?t=1617778162623#iefix") format("embedded-opentype"), url("data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAA1cAAsAAAAAF6gAAA0NAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCFZAqeMJgzATYCJANQCyoABCAFhG0HgVEbthMjETaLtHIm+4sEDq8yP0WApjWWtpOokaIoCQRigOI2B8cu31/kTa8Jnqe8vj9Vt5Ku4HVnQHoleAdt9aHMtzOEp13SeimxLRO+mNlBSFOk9cPwUFsaJA6JAzGnZgZLRCum0PPhzgdYaX1hreqbqs8Mp/543e8YwMHkfmhee6tExngAtsm1zAJjyu6E6lSZTo1K7m4512nKKRDuFklVgqrQFSpX4P/ffZbADlADGvlCoRDihfJvsVwyS02AmBLX37XXhwJ8ChMO1DKnsBLQMQhZYdREI94G6JFiTE6gwha4mguNqK04WL1OnwGwxfnw6hsiFB00jiBuqOvo7E6QFlMvv5MBicpAGc6y9ijwcikQoCIAA+pHbdXXkDypoqP4Oq3hHlAclAp1LH9EzjP7zH8WxflxYVwcV8R94qnPOp5din97r15+lyQQk59L+VKQn6I4gTmD/ysPYPEIUGh80mTIAZUIHiRSZGFwCMkOUC5CCcn11+4cgBgjGxZilQ0PYk0IgB3I5GELGWAfMg6OQEgD5wAhA5wXln5wfhBc4MKQqYOLgJANuAoIAtwWhBTwMBCygK+BYIA/QzYceK8oISfdikqyI5ScdEFZAB0BZhe4iwB8ViI5UnHPiySQrANBFdqggiEnrc0p5LBDm/JCoaMBKZiNmMIMZhAWFIq4XAShBlU4hMgAz0sNjMQIkpvHoE63hIeKX7y+BIuq6PYzBRENWcDrKEyEFLu/KToeNOYaYdDP0kEsbxqJcdEZfyAgg0c+xmwW+xBp99PH3Sl63ZhrSLDVXot81BE0EYgjH7vsCfTfDPwFuyzdULntcBONsSoRImEZAY/bSCEkEVpzFfS7hP+Q3b8U8ud2JXlcFP5a9PuioMqfdPsEAIdQg+5Fag2xLD4v0IE3HnSBD3p5I1RwGfMXT3KUNygwjp+mTZMJQoo6eL/Asgrgs4kgyEFfne1KnKUAyFEGzyBEQ9i2Yc2iLdztJJoIHcF0OHh00EVXsYinxQ7LFBmzGjXqVo3z54mx7LoKIfUMzSrermHopRhaK7EKrHiA1m6BK6WDD79l9deUuswMen12yPIr91DZQey6hMjeR6Jz6vTTOvtk61xPaAakWrvbI+52M3yFEBWXH0bsUw3ejhQdQIplCiYHTbN1lh3xcRAKpgyBOYQOHDp1qTb1uQg97hY5uivrHqpMOIonZT90axKPkQbvjdos51ZxYiDeJdu+WdScAcJqhM3UY1p0HQP8WoBldZ/qbQWQSlINdjctOlkzmaQM51Z58uF4l0z7ZlnSgRs7TDLYEUXngQgeDCZk/h1C3AHTh0qS1+HZOokx6hvu7BrsGj5Q5qukPPZFPlB86PyYWI9YvMT1aKQ3IR6CJIT6nkEYj3qNZbtukH1/kFG3kvHd1OMlpt8BQW8H4zsZ8qU1SdWilWy8sUyNDFblhGVf5Lp2zb5/hqFbmgmgrNohzQnKVdODtYRUH3cVjKsOdC4E4mBpwDVS7sYkc3d3Sr6itoVevSuYuBxcEiXlGqFLEll80qpFsKPf7OAFZshWTbXauXQADkBRe97egZ6EgVU9ZKm7soyhIASmQDOU6jjQ0GzWLDazFfMxLyNNB+h4l+xiQFSLsewd4jlVXVpMj1CFzF076AqdaKDU8LJmaIHiaYvqvHyP6iQoj28zQq3ncu0umpVvp/G6SwhACA8rKFOjttGzroQ+PoTK3ZVLT+5od58OuY+rjqAdS5cxi5ewu5YsZpctZVa5WDYgBxzh5lJwaMmhK4q7xfle6RjLGlTekKUJCzW7MoDp9wuNqwCFRP/2Y3XD4HlVIWfblnkOdrxhJkPO1A1OPdlGmIUdytoVwDEFf4llhXTb4O/DWBhcCATnVOLVPVALqcdK7w0dQ9PnV549miLOzGlZ9muH0CeaPPUeu7lo54bW/hMvyPUDNq2Z0VF+xUwXZ2U3L03o4Hs7zAyUMalk177/ng0tTJ46dW5Rvcdopuf37TW3bRK3//WqC5d77FOBk1tVxXVsjU3lnovVmBClF73jRztPAGi/vz2RNyH6yeTKsqDOJVpJ4epWkOk/b7x/1wLRuzuqo31JSZCu2uqYsGrfJ187KEoxxRvPCEKgYk3+ARm5nAzxCkcQuG5Q8WiqgLv3B6NHhYRrruqjWjXmmyQUJUO8yREE/q6/r/wpb750+GTJqhx9BpQBbkQ3qnPGdOa8mwq4h4rzNJQZUXTcSDgH+apybVDdJitadnDD3Kvz4CmFqAFdpxCB+qUZkXtJwtcwUSs9rBL3JF8YAhUf2xEJC8kLWrBPXazVYgZXN6HTOT61mNCa5VESGIXbWrlTS+nxXTtsjzJKBf4vIeDxWzSJxDOCEFT0XqoSfw908ya+7ndflgYh0tbCNT2nbM2SZkSp0yc3tao0k+sEcLD6Cv5I31Tx/rGgblZWrLCiKNjGzIqh6opDaK6d2dtWVFgrmnq5n7Bw9s/Zv2tTiCSRp+e7SFfvjO6yNNpCCjYtXiWakBb923YzFekeio2jd72eu5RpTPu0fXBzk2jq/MVVSKi4VkTrHHnx4x5lW9Ur244e7W3aDWrKgjTqdJQB+y54hzD++QMWqAdqMAOcCfOXHMjiKXlsyxRkLtEhHwv+FO7zRbFUD5o/bYRbCGhMHdTxQYCSzP4Y/xxq0vPTcdLUGPGpf1tNkAwgG/kLG62LIjdwevF7rUAndXNVBbaFX882yNplSzdE1e73XAERMtMCdef7GSiJFS8FnstaatZ/dXKKmbO0T8WoV/36Qq1aeWMvTfE0vF7SIjmWWR9c5GfC727imNlEOGZmTO7Wxruy4eKrox23iK9R9S2oBj399fkip/9tYEdYH6ojy7y6Xzj+bzOTZHqzzAAa/ZDlozxvQX+YAf+kROhTt0WMMzmYrs1M1kRCbjZnbnx8+K8fiyCsksMx7kIRyAfvqYbH9NMK+dX5fs2jwiYx4Y492utBCd27vv/cL8VuhLKplRntN5K9JeRLBK3WG0nXTTABoNLvRhLqfTEqitxIAvX2Jtvw6S5G2oTRUQUB4vQ54dO6QCW98QaoHPTowclMKwH4MEgn6bY5ZiZ1oqFki5K+0C04H68rgQqBqR+U6b/uSZ8skF8mvjrj3801cOzdeZNZoECiTsGpV/3U0kLXb3c+vH/70GF+s995Lzib9zk7tPtQxKn/IGNo3afCPM8NZjRsVPdmyAKP26wtElrQZOnhsat/bV4NuVwQu4Yql72aUgVZXaQ10+wgctjjj48JK666W0oO6Kbn7tUQu3EES2DJYMLbHt3ZJpPk4COZKKE1YbuumVCozkggcSA04J5m3InkOjGhmns6pxduqDLTS1fsJi05ImIfQpgVFHmZhgZJNAFBCNQUldwDSQCDwAMAAaowR8cG0utvBOKGZwSBM/pM2Ve83RsrSyaUXi/Mp3VftqKsByhQzO9zbWYg1c1uLyMRekbQXfWQeedDdOjWY14QZbVpNBvwaZHJ5xv9QNQr9YP/pXKHthDUiNypG4+X0BeM82wOn7eIRqsvKx9RW4Pwgmp/RDaKbAlypZNmvXi+S2aKRWTW12282CnpwF7q4LLLS/sN6VpxN2/0/IQPEzdd1yNkxKVLa4VuvyT283z9OlWbXj0cvrw0Olw3MJc2bUEXOvNWUM6ZOk+YRJYz0oJbK1x1iDhxlT6dvz6rfTYXpCBteRMTt9y8RNNTQmphxqPMvakul+5el9xBb4fNcMW9G1IbeOwom+oZFXMH3hs643vcDqpD8iOQPDNAagKmFqWXQfJASAFRI+iPk3+SJeRo0nBIVsofWersvUz+Jy4BAPRKncii5SetBveBb9srDS+D5IacEB3Ls1SKSANaQNb1VTMPvv4IfhCpSqsXtHCSvlr2j3rrux2zP/FZ/Xdi0YhqBY/XxETlOCTCN89LcprPRRqo1tLyZ5Ol9eScjMF2aMCXG+Cxui4798Zgy1Xa+s+CLVcANCkKAcFS0tG4VgQOATWBi6UJ8KlA7qUDcuCEhDIeUJ6hDCgi1gNNmvtAiDjraFzvAofcvAUukSIBn95KoDOgtDIyM51YmxvrRNt7osYOm1WvytxMd3Q5hncl2pxh3kmoxpwuYyuqVWnivbmYFXO2cYqrGx7hdutRvdNmQXPYjWEEYUPtTpsJ63CrDG63PUGt1utOVXXYLIBJC5xgtOG2MnaC0k5PUyMd2LCi394NM/H+y8HA6QpBG86ceb9Mq8Fw4sK4exQtKjQlHHMVa6l5x6J10Q2cCNxE9aDGVCc2LKDkEMUgZJcNFLt+PxMYHbhRYajRYScBNa2nL6uo+rdZroDC4VtQPPW5nLkkK6qmG6ZlO67nu7l7eHoFsTe8iLHN27huxHLg5g1uV9qeL5nEeZLz3lO7RRd2Y+/11zLPxzRP/bin6okTy7R4W9cBoLrf76KLhS4XKYDNrryjaEW1VLLOSsX9LXOlFcTJAAAA") format("woff2"), url("../lib/font/iconfont.woff?t=1617778162623") format("woff"), url("../lib/font/iconfont.ttf?t=1617778162623") format("truetype"), url("../lib/font/iconfont.svg?t=1617778162623#iconfont") format("svg");
+  /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-pwd:before {
+  content: "\e605";
+}
+
+.icon-rrw:before {
+  content: "\e608";
+}
+
+.icon-wy:before {
+  content: "\e62f";
+}
+
+.icon-wenhao:before {
+  content: "\e6b6";
+}
+
+.icon-wb:before {
+  content: "\e6e3";
+}
+
+.icon-computer:before {
+  content: "\e61a";
+}
+
+.icon-sj:before {
+  content: "\e648";
+}
+
+.icon-xx:before {
+  content: "\e600";
+}
+
+.icon-weixin:before {
+  content: "\e601";
+}
+
+.icon-weixin1:before {
+  content: "\e60a";
+}
+
+.icon-jt:before {
+  content: "\e602";
+}
+
+.icon-ys:before {
+  content: "\e701";
+}
+
+.icon-sx:before {
+  content: "\e661";
+}
+
+.icon-iconzhengli-:before {
+  content: "\e610";
+}
+
+.icon-zhanghao:before {
+  content: "\e613";
+}
+
+.icon-lunbotujiantou-:before {
+  content: "\e61e";
+}
+
+.icon-lunbotujiantou-1:before {
+  content: "\e61f";
+}
+
+.icon-sousuo1:before {
+  content: "\e9ed";
+}
+
+.icon-gouwuche:before {
+  content: "\e618";
+}
+
+#lg-header {
+  width: 1200px;
+  height: 70px;
+  margin: 0 auto;
+}
+
+#lg-header .lg-lf {
+  width: 600px;
+  float: left;
+}
+
+#lg-header .lg-lf .logo {
+  width: 85px;
+  float: left;
+  padding-top: 8px;
+  float: left;
+}
+
+#lg-header .lg-lf h3 {
+  float: left;
+  line-height: 70px;
+  font-size: 20px;
+  color: #111;
+  margin-left: 30px;
+  font-weight: 400;
+}
+
+#lg-header .lg-rt {
+  width: 600px;
+  float: right;
+}
+
+#lg-header .lg-rt a {
+  float: right;
+  line-height: 70px;
+  color: #005aaa;
+}
+
+/*banner*/
+#banner {
+  position: relative;
+  width: 100%;
+  height: 690px;
+  background-image: url(../../src/img/login_bg.png);
+}
+
+#banner .banner_tit {
+  width: 684px;
+  height: 321px;
+  padding-left: 160px;
+  padding-top: 200px;
+  float: left;
+}
+
+#banner .banner_tit .line {
+  display: block;
+  width: 60px;
+  height: 8px;
+  background: #fff;
+}
+
+#banner .banner_tit p {
+  margin-top: 58px;
+  line-height: 60px;
+  font-size: 47px;
+  color: #fff;
+  font-weight: 700;
+}
+
+#banner .banner_form {
+  background: white;
+  width: 420px;
+  height: 480px;
+  float: left;
+  margin-left: 40px;
+  margin-top: 100px;
+}
+
+#banner .banner_form .form_head {
+  width: 420px;
+  height: 56px;
+  line-height: 56px;
+  text-align: center;
+  font-family: MicrosoftYaHei-Bold;
+  font-size: 24px;
+  color: #111;
+  font-weight: 700;
+  position: relative;
+}
+
+#banner .banner_form .form_head img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#banner .banner_form .form_main {
+  width: 420px;
+  height: 410px;
+}
+
+#banner .banner_form .form_main .form-lg {
+  width: 360px;
+  height: 48px;
+  margin: 0 auto;
+}
+
+#banner .banner_form .form_main .form-lg .form_lg_lf {
+  width: 180px;
+  line-height: 48px;
+  border-bottom: 2px solid #005aaa;
+  text-align: center;
+  float: left;
+}
+
+#banner .banner_form .form_main .form-lg .form_lg_rt {
+  width: 180px;
+  line-height: 48px;
+  text-align: center;
+  float: left;
+}
+
+#banner .banner_form .form_main .form-lg .icon-sj {
+  font-size: 20px;
+}
+
+#banner .banner_form .form_main i {
+  font-style: normal;
+  color: #005aaa;
+}
+
+#banner .banner_form .form_main form {
+  width: 360px;
+  margin: 0 auto;
+}
+
+#banner .banner_form .form_main form .txt, #banner .banner_form .form_main form .pwd {
+  border: none;
+  border-bottom: 1px solid #aaa;
+  width: 360px;
+  height: 40px;
+  line-height: 40px;
+  margin-top: 12px;
+  font-size: 14px;
+  color: #aaa;
+  outline: none;
+  position: relative;
+}
+
+#banner .banner_form .form_main form p {
+  font-size: 14px;
+  color: red;
+}
+
+#banner .banner_form .form_main form .ck input {
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin-top: 16px;
+}
+
+#banner .banner_form .form_main form .ck b {
+  font-weight: 400;
+  font-size: 14px;
+  color: #7d7d7d;
+  margin-left: 8px;
+  margin-top: 16px;
+  float: left;
+}
+
+#banner .banner_form .form_main form .ck i {
+  font-size: 12px;
+  color: #7d7d7d;
+  margin-top: 18px;
+  float: left;
+}
+
+#banner .banner_form .form_main form .ck a {
+  font-size: 12px;
+  color: #7d7d7d;
+  margin-top: 18px;
+  float: left;
+}
+
+#banner .banner_form .form_main form .bx {
+  position: relative;
+}
+
+#banner .banner_form .form_main form .bx input {
+  width: 20px;
+  height: 20px;
+  margin-top: 16px;
+  position: absolute;
+  left: 0;
+}
+
+#banner .banner_form .form_main form .bx b {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 14px;
+  color: #7d7d7d;
+  margin-top: 16px;
+}
+
+#banner .banner_form .form_main form .login #sub {
+  width: 360px;
+  height: 48px;
+  background: #005aaa;
+  text-align: center;
+  line-height: 48px;
+  margin-top: 18px;
+  border-radius: 36px;
+  cursor: pointer;
+  color: white;
+  outline: none;
+  border: 1px solid transparent;
+}
+
+#banner .banner_form .form_main .icon {
+  width: 360px;
+  height: 60px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 60px;
+  margin-top: 20px;
+}
+
+#banner .banner_form .form_main .icon .iconfont {
+  width: 40px;
+  height: 45px;
+  font-size: 30px;
+  margin-right: 40px;
+}
+
+#banner .banner_form .form_main .icon .icon-weixin1 {
+  margin-left: 25px;
+  color: #94cb77;
+  opacity: 0.5;
+}
+
+#banner .banner_form .form_main .icon .icon-weixin1:hover {
+  opacity: 1;
+}
+
+#banner .banner_form .form_main .icon .icon-wb {
+  color: #eba355;
+  opacity: 0.5;
+}
+
+#banner .banner_form .form_main .icon .icon-wb:hover {
+  opacity: 1;
+}
+
+#banner .banner_form .form_main .icon .icon-wy {
+  color: #f6859f;
+  opacity: 0.5;
+}
+
+#banner .banner_form .form_main .icon .icon-wy:hover {
+  opacity: 1;
+}
+
+#banner .banner_form .form_main .icon .icon-rrw {
+  color: #6cabe0;
+  opacity: 0.5;
+}
+
+#banner .banner_form .form_main .icon .icon-rrw:hover {
+  opacity: 1;
+}
+
+#banner .lg-footer {
+  width: 100%;
+  height: 65px;
+  background: black;
+  opacity: .5;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#banner .lg-footer .lg {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+#banner .lg-footer .lg-lf {
+  width: 266px;
+  line-height: 65px;
+  float: left;
+}
+
+#banner .lg-footer .lg-lf a:hover {
+  color: #005aaa;
+}
+
+#banner .lg-footer .lg-rt {
+  width: 400px;
+  line-height: 65px;
+  float: right;
+}
+
+#banner .lg-footer .lg-rt a:hover {
+  color: #005aaa;
+}
+
+#banner .lg-footer a {
+  font-size: 12px;
+  color: white;
+}

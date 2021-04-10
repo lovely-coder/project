@@ -1,0 +1,191 @@
+@import 'public';
+@import 'iconfont';
+#rg-header{
+    width: 1200px;
+    height: 70px;
+    margin: 0 auto;
+    .rg-lf{
+        width: 600px;
+        float: left;
+        .logo{
+            width: 85px;
+            float: left;
+            padding-top: 8px;
+            float: left;
+        }
+        h3{
+            float: left;
+            line-height: 70px;
+            font-size:20px;
+            color: #111;
+            margin-left:30px;
+            font-weight: 400;
+        }
+    }
+    .rg-rt{
+        float: right;
+        span{
+            line-height: 70px;
+            color:#111;  
+        }
+        a{
+            color: #005aaa;
+            font-size: 16px;
+
+        }
+    }
+}
+/* main */
+#main{
+    width: 100%;
+    height: 850px;
+    background-color:#eee;
+    position: relative;
+    .rg-main{
+        width: 1200px;
+        margin: 0 auto;
+        h1{
+            color: #111;
+            font-size: 30px;
+            text-align: center;
+            padding:60px 0px;
+            font-weight: 700;
+        }
+        .mainForm{
+            width: 960px;
+            height:600px;
+            background: white;
+            margin: 0 auto;
+            position: relative;
+            .main_form{
+                width: 820px;
+                height:440px;
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                top: 0;
+                margin:auto;
+                .form_item{
+                    width: 820px;
+                    height: 78px;
+                    text-align: center;
+                    margin-bottom: 5px;
+                    input{
+                        width: 360px;
+                        height: 40px;
+                        outline: 0;
+                        border: 0;
+                        color: #999;
+                        line-height: 18px;
+                        border-bottom:1px solid #d30000;
+                    }
+                    span{
+                        display: inline-block;
+                        font-size: 14px;
+                        color: #444;
+                        width: 56px;
+                    }
+                    .error{
+                        text-align: left;
+                        color: #d30000;
+                        font-size:14px;
+                        margin: 10px auto 0;
+                        width: 380px;
+                        padding-left: 87px;
+                    }
+                }
+                .form_sec{
+                    width: 820px;
+                    height: 34px;
+                    text-align: center;
+                    span{
+                        display: inline-block;
+                        font-size: 14px;
+                        color: #444;
+                        width: 56px;
+
+                    }
+                    .sec{
+                        width: 360px;
+                        height: 34px;
+                        outline: 0;
+                        border: 0;
+                        color:#fff;
+                        line-height: 16px;
+                        background: #61b3ff;
+                    }
+                }
+                .form_pic{
+                    width: 820px;
+                    height:176px;
+                    text-align: center;
+                    img{
+                        width: 312px;
+                        height:160px;
+                        padding:20px;
+                        border: 1px solid #eee;
+                        margin-top: 5px;
+                    }
+                    span{
+                        display:inline-block;
+                        font-size:14px;
+                        color: #444;
+                        width: 56px;
+                        
+                    }
+                }
+                .reg input{
+                    width: 360px;
+                    height: 48px;
+                    background: #c8c8c8;
+                    color: #fff;
+                    border: 1px solid #c8c8c8;
+                    text-align: center;
+                    line-height: 48px;
+                    margin: 0 auto;
+                    border-radius: 36px;
+                    position: absolute;
+                    left: 262px;
+                    bottom :-24px;
+                    cursor: pointer;
+                    outline: none;
+                }
+            }
+        }
+        
+    }
+    .lg-footer{
+        width: 100%;
+        height: 65px;
+        background: black;
+        opacity: .5;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        .lg{
+            width: 1200px;
+            margin: 0 auto;
+        }
+        .lg-lf{
+            width: 266px;
+            line-height: 65px;
+            float: left;
+            a:hover{
+                color: #005aaa;
+            }
+        }
+        .lg-rt{
+            width: 400px;
+            line-height: 65px;
+            float: right;
+            a:hover{
+                color: #005aaa;
+            }
+        }
+        a{
+            font-size:12px;
+            color:white;
+        }
+    }
+}

@@ -1,0 +1,289 @@
+@import 'public';
+@import 'iconfont';
+@import 'page.scss';
+/*menu*/
+#menu{
+    width: 100%;
+    display: none;
+    z-index: 9999;
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    background: white;
+    .head-menu{
+        width: 1200px;
+        height: 440px;
+        margin: 0 auto;
+        .leftMenu{
+            width: 700px;
+            height: 440px;
+            float: left;
+            .one{
+                width: 180px;
+                height: 440px;
+                margin-left: 100px;
+                float: left;
+                li{
+                    font-size: 14px;
+                    line-height: 30px;
+                    padding: 15px 0px;
+                }
+            }
+            .two{
+                float: left;
+                width: 420px;
+                height: 440px;
+                a{
+                   display: inline-block;
+                   width: 30%;
+                   font-size: 14px; 
+                   line-height: 30px;
+                   padding: 15px 0px;
+                   color: #111;
+                }
+            }
+        }
+        .rightMenu{
+            width: 500px;
+            height: 440px;
+            float: left;
+            .img{
+                margin-left: 160px;
+                border-left: 2px solid #ddd
+                ;
+                margin-top: 40px;
+                padding-left:60px ;
+                width: 240px;
+                height: 300px;
+                p{
+                    width: 100px;
+                    height: 36px;
+                    border: 1px solid #0c5ca8;
+                    border-radius: 36px;
+                    line-height: 36px;
+                    text-align: center;
+                    margin: 0 auto;
+                    margin-top: 10px;
+                    a{
+                        color:#0c5ca8;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+// picture
+#picture{
+    width: 100%;
+    img{
+        width: 100%;
+    }
+}
+// ice-main
+#ice_main{
+    width:100%;
+    position: relative;
+    .i_ice{
+        width: 1200px;
+        height: 60px;
+        margin: 0 auto;
+        i{
+            font-style: normal;
+            color: #111;
+            cursor: pointer;
+            line-height: 60px;
+        }
+        i:hover{
+            color: #0c5ca8;
+            cursor: pointer;
+        }
+        span{
+            display: inline-block;
+            border: 1px solid #e4e4e4;
+            padding: 0 25px 0 10px;
+            line-height: 32px;
+            cursor: pointer;
+        }
+    }
+    .list_ice{
+        width: 550px;
+        height: 126px;
+        background:#fff
+        ;
+        position: absolute;
+        left:306px ;
+        top: 47px;
+        display: none;
+        z-index: 1;
+        a{ 
+            display: inline-block;
+            width: 120px;
+            color: #444;
+            line-height: 42px;
+            font-size: 12px;
+            height: 42px;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+    }
+}
+
+// titBox
+#titBox{
+    width:100%;
+    background: #fafafa;
+    border-top: 1px solid #e4e4e4;
+    .ice_tit{
+        width: 1200px;
+        height: 60px;
+        margin: 0 auto;
+        line-height: 60px;
+        
+        b{
+            line-height: 30px;
+            display: inline-block;
+            font-size:20px;
+            padding: 0 15px 0 17px;
+            border-left: 4px solid #005aaa;
+            color: #000;
+            font-weight: 400;
+        }
+        i{
+            font-size: 12px;
+            color: #111;
+            font-style: normal;
+        }
+    }
+}
+
+/*product*/
+#product{
+    width: 100%;
+    overflow: hidden;
+    .pro_list{
+        width: 1200px;
+        margin: 0 auto;
+        li{
+            width: 255px;
+            height: 449px;
+            position: relative;
+            float: left;
+            .pro_box{
+                width: 231px;
+                height: 431px;
+                position: absolute;
+                left: 0;
+                top: 0;
+                bottom: 0;
+                right:0;
+                margin: auto;
+                text-align: center;
+                img{
+                    width: 229px;
+                    height: 229px;
+                    margin-top: 15px;
+                }
+                .pro_tit{
+                    font-size: 14px;
+                    line-height: 18px;
+                    margin: 14px 0px 10px;
+                    overflow: hidden;
+                    display: block;
+                    color: #111;
+                }
+                .code{
+                    font-size: 12px;
+                    color: #888;
+                    line-height: 11px;
+                    height:11px;
+                    overflow: hidden;
+                    margin-bottom: 16px;
+                }
+                .price{
+                    font-style: normal;
+                    font-size: 12px;
+                    color: #888;
+                    span{
+                        color: #005aaa;
+                        font-size: 14px;
+                        display: inline-block;
+                        padding-left: 15px;
+                        font-weight: 400;
+                    }
+                }
+                .yi{
+                    margin-top: 10px;
+                    margin-bottom: 16px;
+                    a{
+                        display: inline-block;
+                        padding: 0 2px;
+                        color: #005aaa;
+                        font-size: 12px;
+                    }
+                    i{
+                        font-style: normal;
+                        font-size: 12px;
+                        color: #111;
+                    }
+                    .icon-xx{
+                        font-size: 12px;
+                    }
+                }
+                .laber{
+                    width: 231px;
+                    height: 22px;
+                    .laber_item{
+                        color: #c7c7c7;
+                        line-height: 22px;
+                        font-size: 12px;
+                        height: 20px;
+                        display: inline-block;
+                        vertical-align: middle;
+                        border-top-left-radius: 4px;
+                        border-bottom-right-radius: 4px;
+                        border: 1px solid #c7c7c7;
+                    }
+                }
+            }
+        }
+    }
+}
+// page
+button {
+    display: inline-block;
+    padding: 6px 12px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    border-color: #28a4c9;
+    color: #fff;
+    background-color: #5bc0de;
+    margin: 20px 20px 0 0;
+}
+
+.box {
+    width: 800px;
+    margin: 100px auto 0;
+    height: 34px;
+}
+
+.page {
+    width: 600px;
+    margin: 10px 0px 80px 100px;
+}
+
+.info {
+    width: 200px;
+    height: 34px;
+    line-height: 34px;
+}
+
+.fl {
+    float: left;
+}
